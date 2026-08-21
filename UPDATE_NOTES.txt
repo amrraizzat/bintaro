@@ -1,0 +1,19 @@
+Bintaro 60K Training PWA v3
+
+What is new
+- Progress dashboard
+- 8-week planned vs actual distance chart
+- Easy-pace trend chart
+- 28-day completion percentage
+- Rolling 28-day mileage
+- Simple readiness/recovery signal from RPE and Legs
+- Monthly training calendar with completed/partial/not-logged states
+- Personal milestones
+- Calculator moved under Setup > Tools
+
+Data compatibility
+- Uses the same localStorage data structure as v2. Existing logs should remain on the same iPhone/Safari origin after replacing the hosted files.
+
+GitHub Pages update
+Replace index.html and service-worker.js. You may also replace manifest.webmanifest and icons, though they are unchanged.
+After GitHub Pages finishes deploying, fully close and reopen the Home Screen app. If needed, open the site once in Safari first so the updated service worker activates.
